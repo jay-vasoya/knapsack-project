@@ -12,6 +12,8 @@ function App() {
   const [result, setResult] = useState(null);
   const [selectedItems, setSelectedItems] = useState([]);
   const [isSolving, setIsSolving] = useState(false);
+    console.log(dpTable);
+
 
   // Add Item to List
   const addItem = () => {
